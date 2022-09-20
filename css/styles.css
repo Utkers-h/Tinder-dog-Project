@@ -1,0 +1,154 @@
+body{
+    font-family: 'Montserrat,sans-serif';
+}
+#title{
+    background-color:#ff4c68;
+    color:#fff;
+}
+h1 {
+    font-family: 'Montserrat, sans-serif';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+/*navigation bar*/
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size:2.5rem;
+    font-weight:bold;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-family:"Montserrat-light";
+    font-size:1.2rem;
+}
+
+/*download button*/
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+.title-image{
+    width:60%;
+    transform : rotate(25deg);
+    position:relative;
+    left:20%;
+
+}
+
+@media (max-width:1028px){
+    .title-image{
+        position:static;
+        transform:rotate(0deg);
+                    }
+}
+/*features*/
+#features{
+    margin:7% 15%;
+    background-color:#fff;
+}
+
+h2{
+    font-family:"Montserrat-Bold";
+    font-size:3rem;
+    line-height:1.5;
+    font-weight:bold;
+}
+
+h3{
+    font-family:"Montserrat-Bold";
+    font-weight:bold;
+    size:1.5rem;
+}
+
+.box{
+    text-align: center;
+}
+
+p{
+    color:#8f8f8f;
+}
+
+.fonts-icon{
+    color:#ef8172;
+    padding:20px;
+}
+
+i:hover{
+    color:#ff4c68;
+}
+
+/*testimonials*/
+#testimonials{
+    padding:5% 7%;
+    text-align:center;
+    background-color:#ff4c68;
+    color:#fff;
+}
+
+.testimonial-image{
+    width:15%;
+    border-radius:100%;
+    margin:20px;
+}
+
+#press{
+    background-color:#ff4c68;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.press-logo{
+    width:15%;
+    margin:10px 30px 40px;
+}
+
+/*Pricing*/
+#pricing{
+    padding:60px;
+    text-align:center;
+}
+
+.pricing-section{
+    padding:3% 2%;
+
+}
+
+/*CTA*/
+#cta{
+    font-family: 'Montserrat-black';
+    color:#fff;
+    text-align:center;
+    font-weight:bold;
+    background-color:#ff4c68;
+    padding:7% 15%;
+
+}
+
+.cta-h3{
+    font-size:40px;
+    font-weight:bold;
+}
+
+#footer{
+    margin:3%;
+    text-align:center;
+    background-color:#fff;
+}
+.social-media{
+    margin:20px 10px;
+
+}
